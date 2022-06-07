@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style/normalize.css">
     <link rel="stylesheet" href="./style/index.css">
+    <link rel="stylesheet" href="./style/normalize.css">
     <title>E-trans</title>
 </head>
 
 <body>
     <header class="header">
-    <div class="wrapper">
+    <div class="wrapper header__wrapper">
         <img src="./img/logo.svg" alt="E-trans" class="header__logo">
         <nav class="hader__navigation navigation">
             <ul class="navigation_list">
@@ -163,28 +163,29 @@
     </main>
 
     <footer class="footer">
-        <img src="./img/E-transFooter.svg" alt="E-trans" class="footer__logo">
+        <div class="wrapper">
+            <img src="./img/E-transFooter.svg" alt="E-trans" class="footer__logo">
         <div class="footer__colomns">
-            <div class="footer__colomn">
-                <ul class="footer__list">
-                    <li class="footer__list">
-                        <a href="" class="footer__link">Гироскутеры</a>
-                    </li>
-                    <li class="footer__list">
-                        <a href="" class="footer__link">Моноколеса</a>
-                    </li>
-                    <li class="footer__list">
-                        <a href="" class="footer__link">Электросамокаты</a>
-                    </li>
-                </ul>
-            </div>
+                <div class="footer__colomn">
+                    <ul class="footer__list">
+                        <li class="footer__list">
+                            <a href="" class="footer__link">Гироскутеры</a>
+                        </li>
+                        <li class="footer__list">
+                            <a href="" class="footer__link">Моноколеса</a>
+                        </li>
+                        <li class="footer__list">
+                            <a href="" class="footer__link">Электросамокаты</a>
+                        </li>
+                    </ul>
+                </div>
 
-            <div class="footer__colomn">
-                <h3 class="footer__title">Адрес магазина:</h3>
-                <p class="footer__description">г.&nbsp; Москва, ул.&nbsp; Трубная 104/3 1&nbsp;этаж</p>
-            </div>
+                <div class="footer__colomn">
+                    <h3 class="footer__title">Адрес магазина:</h3>
+                    <p class="footer__description">г.&nbsp; Москва, ул.&nbsp; Трубная 104/3 1&nbsp;этаж</p>
+                </div>
             
-            <div class="footer__colomn contacts">
+                <div class="footer__colomn contacts">
                 <h3 class="footer__contact-title">Контакты:</h3>
                 <div class="contacts__list">
                     <a class="contact__link" href="tel:+7(384)883-38-12">+7(384)883-38-12</a>
@@ -212,8 +213,8 @@
                 </ul>
             </div>
         </div>
-
         <p class="footer__copyright">© E-Trans, 2022</p>
+        </div>
     </footer>
 </body>
 
