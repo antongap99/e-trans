@@ -118,7 +118,7 @@ img, svg {
 .navigation__item:hover{
     color:#CDF478;
 }
-.navigation__item:visited{
+.navigation__link:visited{
     color:#fff;
 }
 
