@@ -16,7 +16,7 @@ const disablescroll = () => {
     top: -${document.body.scrollPosition}px;
     left: 0;
     height: 100wh;
-    width: 100wv;
+    width: 100vw;
     padding-right: ${window.innerWidth - document.body.offsetWidth}px; `
      
 } /* padding-right для того, чтобы избавиться от скочка в момент открытия модалки

@@ -429,6 +429,9 @@ img, svg {
     text-align: center; 
 }
 
+.modal__discription {
+    margin: 0;
+}
 
 .modal__form {
     display: flex;
@@ -633,7 +636,41 @@ img, svg {
     .footer__colomn{
         max-width: 203px;
     }
+
+    .modal__block {
+        width: 520px;
+        padding: 20px 15px;
+        
+    }
+
+    .modal__container {
+        gap: 15px;
+
+    }
+
+    .modal__title {
+        font-size: 18px;
+        max-width: 190px;
+    }
+    .modal__form {
+        gap: 10px;
+        width: 260px;
+    }
+    .modal__submit{
+        min-width: 260px;
+        height: 50px;
+        font-size: 18px;
+        line-height: 120%;
+    }
+
+    .form__input {
+        width: 100%;
+        height: 50px;
+        padding: 5px 0 10px;
+    }
+
 }
+
 
 @media (max-width: 760px) {
     .header__wrapper {
@@ -730,6 +767,31 @@ img, svg {
     .footer__logo {
         margin-bottom: 30px;
     }
+
+
+    .modal__block {
+        width: 290px;  
+    }
+    .modal__discription {
+        font-size: 14px;
+    }
+    .modal__form {
+        gap: 10px;
+        width: 260px;
+    }
+    .modal__submit{
+        min-width: 260px;
+        height: 50px;
+        font-size: 18px;
+        line-height: 120%;
+    }
+
+    .form__input {
+        width: 100%;
+        height: 50px;
+        padding: 5px 0 10px;
+    }
+
+
+
 }
-
-
