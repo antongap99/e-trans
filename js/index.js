@@ -59,7 +59,7 @@ const creatModal = (title, discription) => {
 
     const nameInputElem = createElem('input', {
         className: 'form__input',
-        placeholder: 'Введите ваше имя',
+        placeholder: ' Введите ваше имя',
         name: 'name',
         required: true,
     });
@@ -73,7 +73,7 @@ const creatModal = (title, discription) => {
 
     const phoneInputElem = createElem('input', {
         className: 'form__input',
-        placeholder: 'Введите ваше телефон',
+        placeholder: ' Введите ваше телефон',
         name: 'phone',
         required: true,
     });
